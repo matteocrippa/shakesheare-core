@@ -1,0 +1,1 @@
+# shakesheare-core
