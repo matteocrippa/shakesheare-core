@@ -1,0 +1,23 @@
+{
+  "name": "shakesheare-core",
+  "version": "0.0.1",
+  "description": "A crossplatform pre-sharing file encryption",
+  "main": "routers/index.html",
+  "dependencies": {
+    "file-encryptor": "^0.1.0"
+  },
+  "keywords": [
+    "file",
+    "encrypt",
+    "eas"
+  ],
+  "author": "Matteo Crippa",
+  "license": "MIT",
+  "window": {
+    "toolbar": true,
+    "resizable": false,
+    "width": 600,
+    "height": 400,
+    "position": "center"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "shakesheare-core",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shakesheare/shakesheare-core",
+  "authors": [
+    "Matteo Crippa <m.crippa@matteocrippa.it>"
+  ],
+  "description": "Shakesheare core",
+  "main": "routers/index.html",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "./assets/js/libs"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "angularjs": "~1.3.8",
+    "bootstrap": "~3.2.0",
+    "ng-table": "~0.3.3",
+    "angular-resource": "~1.2.23",
+    "angular-file-model": "~0.3.0",
+    "angular-bootstrap": "~0.12.0"
+  }
+}

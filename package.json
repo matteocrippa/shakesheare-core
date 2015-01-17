@@ -1,0 +1,16 @@
+{
+  "name": "Shakesheare",
+  "version": "0.0.1",
+  "description": "A crossplatform pre-sharing file encryption",
+  "main": "builder.js",
+  "dependencies": {
+    "node-webkit-builder": "mllrsohn/node-webkit-builder"
+  },
+  "keywords": [
+    "file",
+    "encrypt",
+    "eas"
+  ],
+  "author": "Matteo Crippa",
+  "license": "MIT"
+}
