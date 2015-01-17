@@ -1,8 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html ng-app="index">
 
 <head>
-<script src="../controller/index.js" type="text/javascript" ></script>
-<script src="../assets/js/index.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/js/libs/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/js/libs/bootstrap/dist/css/bootstrap-theme.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+
+  <script src="../assets/js/libs/jquery/dist/jquery.min.js" type="text/javascript"></script>
+
+  <script src="../assets/js/libs/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <script src="../assets/js/libs/angular/angular.min.js" type="text/javascript"></script>
+  <script src="../assets/js/libs/ng-file-upload/angular-file-upload-all.min.js" type="text/javascript"></script>
+
+  <script src="../controller/index.js" type="text/javascript"></script>
+
+  <script src="../assets/js/index.js" type="text/javascript"></script>
+
 </head>
+
+<body>
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-md-12 column">
+
+        <div class="boxlogo">
+          <img class="logo" src="../assets/img/icon.png">
+        </div>
+
+        <h3 class="text-info text-center">
+          Drop your file inside the dotted box to encrypt/decrypt it.
+        </h3>
+
+        <div ng-controller="IndexController as index">
+
+
+          <div ng-file-drop ng-model="index.files" class="drop-box"
+          drag-over-class="{accept:'dragover', reject:'dragover-err', delay:100}"
+          ng-multiple="false" allowDir="false" >
+        </div>
+
+        </div>
+
+    </div>
+  </div>
+</body>
 
 </html>

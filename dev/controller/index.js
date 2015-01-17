@@ -20,7 +20,3 @@ dash.decryptFile = function(file, password) {
   })
 
 }
-
-dash.info = function() {
-  return "info"
-}
