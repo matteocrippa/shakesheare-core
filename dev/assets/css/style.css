@@ -11,6 +11,17 @@ body {
   width: 64px;
   height: 64px;
 }
+
+.loading{
+  width: 220px;
+  height: 76px;
+}
+
+.boxloading{
+  margin: auto;
+  width: 220px;
+}
+
 .drop-box {
   margin-top: 30px;
   width: 100%;
@@ -34,4 +45,9 @@ body {
   text-align: center;
   color: #31808f;
   margin-top: 60px;
+}
+
+.btnrestart {
+  margin-top: 100px;
+  text-align: center;
 }

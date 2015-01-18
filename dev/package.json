@@ -14,7 +14,7 @@
   "author": "Matteo Crippa",
   "license": "MIT",
   "window": {
-    "toolbar": true,
+    "toolbar": false,
     "resizable": false,
     "width": 600,
     "height": 400,
