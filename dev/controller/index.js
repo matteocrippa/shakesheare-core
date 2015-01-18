@@ -7,6 +7,11 @@ dash.encryptFile = function(file, password) {
     algorithm: 'aes256'
   }, function(err) {
     console.log(err)
+    if(err){
+      
+    }else{
+      
+    }
   })
 }
 
@@ -17,6 +22,11 @@ dash.decryptFile = function(file, password) {
     algorithm: 'aes256'
   }, function(err) {
     console.log(err)
+    if(err){
+      
+    }else{
+      
+    }
   })
 
 }
