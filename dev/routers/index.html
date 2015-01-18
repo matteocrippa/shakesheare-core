@@ -30,21 +30,25 @@
         </div>
 
         <h3 class="text-info text-center">
-          Drop your file inside the dotted box to encrypt/decrypt it.
+          Follow the steps below:
         </h3>
 
         <div ng-controller="IndexController as index">
 
+          <br/>
 
-          <div ng-file-drop ng-model="index.files" class="drop-box"
-          drag-over-class="{accept:'dragover', reject:'dragover-err', delay:100}"
-          ng-multiple="false" allowDir="false" >
+          <input type="password" placeholder="1. Insert password" ng-model="index.password" class="password" />
+
+          <div ng-file-drop ng-model="index.files" class="drop-box" drag-over-class="{accept:'dragover', reject:'dragover-err', delay:100}" ng-multiple="false" allowDir="false">
+            <p class="instructions">
+              2. Drag & drop your file here
+            </p>
+          </div>
+
         </div>
 
-        </div>
-
+      </div>
     </div>
-  </div>
 </body>
 
 </html>
