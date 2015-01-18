@@ -48,6 +48,15 @@ body {
 }
 
 .btnrestart {
-  margin-top: 100px;
+  margin-top: 60px;
   text-align: center;
+}
+
+.btncopy {
+  text-align: right;
+}
+
+.emailinstructions {
+  width: 100%;
+  height: 80px;
 }

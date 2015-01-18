@@ -61,6 +61,14 @@
             {{index.action}} completed!
           </h3>
 
+          <textarea class="emailinstructions">{{index.instruction}}</textarea>
+          <div class="btncopy">
+            <button ng-click="index.copyEmail()">Copy message</button>
+            
+          </div>
+
+          <br/>
+
           <div class="btnrestart">
             <button ng-click="index.restart()">Process another file</button>
           </div>
