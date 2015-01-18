@@ -10,6 +10,7 @@
     
     vm.setup = true
     vm.encdecoding = false
+    vm.action = null
     vm.finished = false
 
     $scope.$watch(angular.bind(this, function() {
@@ -27,7 +28,12 @@
       vm.setup = false
       vm.encdecoding = true
       
-      encryptor.encryptFile(newVal[0].path, newVal[0].path + '.shake', vm.password, {
+      if(newVal[0].path.indexOf('.shake') != -1){
+        vm.action = 'decoding'
+      }else{
+        vm.action = 'encoding'
+        
+        encryptor.encryptFile(newVal[0].path, newVal[0].path + '.shake', vm.password, {
         algorithm: 'aes256'
       }, function(err) {
         console.log(err)
@@ -38,6 +44,9 @@
           vm.finished = true
         }
       })
+      }
+      
+      
       
     })
   }
