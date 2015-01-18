@@ -5,10 +5,10 @@ Share your file online with no worry, now you are the unique person that can dec
 
 ## Binaries
 
-- [Windows]()
-- [Linux]()
-- [Mac]()
+- [Windows](http://shakesheare.github.io/build/Shakesheare-win64.zip)
+- [Linux](http://shakesheare.github.io/build/Shakesheare-linux64.zip)
+- [Mac](http://shakesheare.github.io/build/Shakesheare-mac64.zip)
 
 ## Compile
 
-Clone the project on your pc/mac, then proceed as follow:
+tbd
